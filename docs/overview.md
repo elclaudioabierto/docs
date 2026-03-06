@@ -32,3 +32,15 @@ Agents burn tokens when they guess tooling. AgentKit makes installs repeatable, 
 agentkit add web-automation --dry-run --json
 ```
 Returns a plan with resolved recipes, steps, and changes.
+
+## How it works (flow)
+
+```mermaid
+flowchart LR
+  A[Agent request] --> B[agentkit search/inspect]
+  B --> C[Resolve recipes]
+  C --> D[Validate schema]
+  D --> E[Plan steps]
+  E --> F[Execute (or dry-run)]
+  F --> G[Capability installed]
+```
