@@ -4,11 +4,11 @@ const config = {
   title: 'AgentKit Docs',
   tagline: 'Documentation for AgentKit',
 
-  url: 'https://example.com',
-  baseUrl: '/',
+  url: 'https://elclaudioabierto.github.io',
+  baseUrl: '/docs/',
 
-  organizationName: 'agentkit',
-  projectName: 'agentkit',
+  organizationName: 'elclaudioabierto',
+  projectName: 'docs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
