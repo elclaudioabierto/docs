@@ -41,6 +41,6 @@ flowchart LR
   B --> C[Resolve recipes]
   C --> D[Validate schema]
   D --> E[Plan steps]
-  E --> F[Execute (or dry-run)]
+  E --> F[Execute or dry-run]
   F --> G[Capability installed]
 ```
