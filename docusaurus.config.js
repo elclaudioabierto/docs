@@ -34,7 +34,10 @@ const config = {
   ],
 
   markdown: {
-    mermaid: true
+    mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn'
+    }
   },
   themes: ['@docusaurus/theme-mermaid'],
 
@@ -43,8 +46,8 @@ const config = {
       title: 'AgentKit',
       items: [
         { type: 'docSidebar', sidebarId: 'docsSidebar', position: 'left', label: 'Docs' },
-        { href: 'https://github.com/elclaudioabierto/agentkit', label: 'GitHub', position: 'right' }
-        , { to: '/docs/support', label: 'Donate', position: 'right' }
+        { href: 'https://github.com/elclaudioabierto/agentkit', label: 'GitHub', position: 'right' },
+        { to: '/docs/support', label: 'Donate', position: 'right' }
       ]
     },
     footer: {
