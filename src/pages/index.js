@@ -17,7 +17,7 @@ export default function Home() {
               </div>
             </div>
             <div style={{textAlign: 'center'}}>
-              <img src="/docs/img/ghost-kit.svg" alt="AgentKit ghost mascot" style={{maxWidth: 320, width: '100%'}} />
+              <img src="/img/ghost-kit.svg" alt="AgentKit capability blocks" style={{maxWidth: 320, width: '100%'}} />
             </div>
           </div>
 
@@ -26,7 +26,7 @@ export default function Home() {
             <ul>
               <li><a href="https://github.com/elclaudioabierto/agentkit">agentkit</a> — CLI + core engine + schemas</li>
               <li><a href="https://github.com/elclaudioabierto/registry">registry</a> — official recipes and index</li>
-              <li><a href="https://github.com/elclaudioabierto/registry-template">registry-template</a> — starter template</li>
+              <li><a href="https://github.com/elclaudioabierto/registry-template">registry-template</a> — store your own recipes in your own vault</li>
               <li><a href="https://github.com/elclaudioabierto/docs">docs</a> — this site</li>
             </ul>
           </div>
