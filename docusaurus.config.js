@@ -36,7 +36,8 @@ const config = {
   markdown: {
     mermaid: true,
     hooks: {
-      onBrokenMarkdownLinks: 'warn'
+      onBrokenMarkdownLinks: 'warn',
+      onBrokenMarkdownImages: 'warn'
     }
   },
   themes: ['@docusaurus/theme-mermaid'],
