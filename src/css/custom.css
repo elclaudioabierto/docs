@@ -159,3 +159,14 @@ html[data-theme='dark'] .homepage-hero strong {
   background: #fefb00;
   color: #000;
 }
+
+/* Dark mode homepage text color fix */
+html[data-theme='dark'] .homepage-hero {
+  background: #111 !important;
+}
+html[data-theme='dark'] .homepage-hero h1,
+html[data-theme='dark'] .homepage-hero p,
+html[data-theme='dark'] .homepage-hero li,
+html[data-theme='dark'] .homepage-hero a {
+  color: #f5f5f5 !important;
+}
