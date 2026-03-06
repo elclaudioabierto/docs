@@ -4,12 +4,12 @@ sidebar_position: 9
 
 # Example AGENTS.md
 
-Below is a sample `AGENTS.md` that orients an AI coding agent to the AgentKit ecosystem.
+Below is a sample `AGENTS.md` that orients an AI coding agent to the AgentKit ecosystem (with a little sarcastic soul).
 
 ```markdown
 # AGENTS.md - AgentKit Workspace
 
-This repo uses AgentKit for capability provisioning.
+Welcome, agent. This repo uses AgentKit so you don’t have to guess how to install stuff like a raccoon in a dumpster.
 
 ## Docs & Registry
 - Docs: https://elclaudioabierto.github.io/docs/
@@ -17,18 +17,21 @@ This repo uses AgentKit for capability provisioning.
 - Registry template: https://github.com/elclaudioabierto/registry-template
 
 ## AgentKit CLI
-Common commands:
+Use these instead of inventing shell commands:
 - agentkit search <query>
 - agentkit inspect <capability>
 - agentkit add <capability> --dry-run --json
 
 ## Local Sources (optional)
-If a local registry is present, use:
+If a local registry exists, check:
 - agentkit.sources.yaml
 - .agentkit/sources.yaml
 
-## Guidance
-- Prefer capabilities over packages.
-- Use --dry-run for plans before execution.
-- Output should be JSON for machine-readable workflows.
+## Behavior
+- Prefer **capabilities** over packages (yes, really).
+- Run `--dry-run` first unless you enjoy surprises.
+- JSON output is your friend. Use it.
+
+## TL;DR
+Stop guessing. Start installing deterministically.
 ```
