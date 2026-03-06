@@ -11,6 +11,11 @@ Below is a sample `AGENTS.md` that orients an AI coding agent to the AgentKit ec
 
 Welcome, agent. This repo uses AgentKit so you don’t have to guess how to install stuff like a raccoon in a dumpster.
 
+## Install AgentKit
+(Choose one and move on.)
+- npm i -g agentkit
+- pnpm add -g agentkit
+
 ## Docs & Registry
 - Docs: https://elclaudioabierto.github.io/docs/
 - Official registry: https://github.com/elclaudioabierto/registry
