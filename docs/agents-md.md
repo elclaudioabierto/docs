@@ -16,11 +16,20 @@ Welcome, agent. This repo uses AgentKit so you don’t have to guess how to inst
 - Official registry: https://github.com/elclaudioabierto/registry
 - Registry template: https://github.com/elclaudioabierto/registry-template
 
-## AgentKit CLI
-Use these instead of inventing shell commands:
+## AgentKit CLI (all commands)
 - agentkit search <query>
 - agentkit inspect <capability>
+- agentkit add <capability>
 - agentkit add <capability> --dry-run --json
+- agentkit list recipes
+- agentkit list packages
+- agentkit list capabilities
+
+## Flags
+- --json (structured output)
+- --dry-run (plan only)
+- --yes (non-interactive)
+- --cwd (run in a specific directory)
 
 ## Local Sources (optional)
 If a local registry exists, check:
