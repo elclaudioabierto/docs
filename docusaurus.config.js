@@ -24,7 +24,7 @@ const config = {
       {
         docs: {
           sidebarPath: './sidebars.js',
-          routeBasePath: '/'
+          routeBasePath: 'docs'
         },
         blog: false,
         theme: {
@@ -60,7 +60,7 @@ const config = {
       items: [
         { type: 'docSidebar', sidebarId: 'docsSidebar', position: 'left', label: 'Docs' },
         { href: 'https://github.com/elclaudioabierto/agentkit', label: 'GitHub', position: 'right' },
-        { to: '/support', label: 'Donate', position: 'right' }
+        { to: '/docs/support', label: 'Donate', position: 'right' }
       ]
     },
     footer: {
