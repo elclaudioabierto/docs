@@ -2,13 +2,14 @@
 
 Docusaurus documentation site for AgentKit.
 
+## Repos
+- Core: https://github.com/elclaudioabierto/agentkit
+- Registry: https://github.com/elclaudioabierto/registry
+- Registry Template: https://github.com/elclaudioabierto/registry-template
+- Docs: https://github.com/elclaudioabierto/docs
+
 ## Run locally
 ```bash
 pnpm install
 pnpm start
 ```
-
-## Related repos
-- Core: https://github.com/elclaudioabierto/agentkit
-- Official registry: https://github.com/elclaudioabierto/registry
-- Registry template: https://github.com/elclaudioabierto/registry-template

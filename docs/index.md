@@ -2,8 +2,18 @@
 sidebar_position: 1
 ---
 
-# AgentKit Docs
+# AgentKit
 
-Welcome to the AgentKit documentation.
+AgentKit is a capability provisioning layer for AI coding agents.
 
-This is the starting page for guides, architecture notes, and references.
+## Repos
+- Core: https://github.com/elclaudioabierto/agentkit
+- Registry: https://github.com/elclaudioabierto/registry
+- Registry Template: https://github.com/elclaudioabierto/registry-template
+- Docs: https://github.com/elclaudioabierto/docs
+
+## What’s in each repo
+- **agentkit** — CLI + core engine + schemas
+- **registry** — official recipes and index
+- **registry-template** — starter template for custom registries
+- **docs** — Docusaurus documentation site
