@@ -8,6 +8,7 @@ module.exports = {
     { type: 'doc', id: 'recipes' },
     { type: 'doc', id: 'sources' },
     ,
-    { type: 'doc', id: 'support' }
+    ,
+    { type: 'doc', id: 'agents-md' }
   ]
 };
