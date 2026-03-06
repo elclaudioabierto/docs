@@ -11,7 +11,8 @@ export default function Home() {
               <h1>AgentKit</h1>
               <p style={{fontSize: '1.1rem'}}>Capability provisioning for AI coding agents. Minimal. Deterministic. Fun.</p>
               <p>Install capabilities like<br/><strong>web-automation</strong><br/>without guessing commands.</p>
-              <div style={{marginTop: '1.5rem', display: 'flex', gap: '1rem', flexWrap: 'wrap'}}>
+              
+                <code style="display:block;margin-top:12px;background:#fff;border:2px solid #000;padding:8px 10px;box-shadow:3px 3px 0 #000;">npm i -g /agentkit</code>
                 <a className="button button--primary" href="/docs/overview">Read the docs</a>
                 <a className="button button--secondary" href="https://github.com/elclaudioabierto/agentkit">View on GitHub</a>
               </div>

@@ -1,7 +1,8 @@
 module.exports = {
   docsSidebar: [
     { type: 'doc', id: 'index' },
-    { type: 'doc', id: 'overview' },
+    ,
+    { type: 'doc', id: 'installation' },
     { type: 'doc', id: 'concepts' },
     { type: 'doc', id: 'cli' },
     { type: 'doc', id: 'registry-schema' },
