@@ -130,3 +130,19 @@ html[data-theme='dark'] .homepage-hero p,
 html[data-theme='dark'] main p {
   color: #e6e6e6;
 }
+
+/* Readability tweaks */
+.homepage-hero h1,
+.homepage-hero p {
+  color: #111;
+}
+
+.homepage-hero p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+.homepage-hero strong {
+  background: #fefb00;
+  padding: 0 0.2rem;
+}
