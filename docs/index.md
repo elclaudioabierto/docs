@@ -15,5 +15,5 @@ AgentKit is a capability provisioning layer for AI coding agents.
 ## What’s in each repo
 - **agentkit** — CLI + core engine + schemas
 - **registry** — official recipes and index
-- **registry-template** — starter template for custom registries
+- **registry-template** — store your own recipes in your own vault
 - **docs** — Docusaurus documentation site
