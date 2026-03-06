@@ -41,7 +41,18 @@ const config = {
       onBrokenMarkdownImages: 'warn'
     }
   },
-  themes: ['@docusaurus/theme-mermaid'],
+  themes: [
+    '@docusaurus/theme-mermaid',
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false
+      }
+    ]
+  ],
 
   themeConfig: {
     navbar: {
