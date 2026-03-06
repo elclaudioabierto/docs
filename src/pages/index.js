@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <Layout title="AgentKit" description="Capability provisioning for AI coding agents">
       <main style={{padding: '4rem 1rem', textAlign: 'center'}}>
-        <div style={{maxWidth: 980, margin: '0 auto', background: '#fff', border: '4px solid #000', boxShadow: '10px 10px 0 #000', padding: '2rem'}}>
+        <div className="homepage-hero" style={{maxWidth: 980, margin: '0 auto', background: '#fff', border: '4px solid #000', boxShadow: '10px 10px 0 #000', padding: '2rem'}}>
           <div style={{display: 'grid', gap: '2rem', alignItems: 'center', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', textAlign: 'left'}}>
             <div>
               <h1>AgentKit</h1>
