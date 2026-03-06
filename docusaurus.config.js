@@ -23,7 +23,8 @@ const config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.js'
+          sidebarPath: './sidebars.js',
+          routeBasePath: '/'
         },
         blog: false,
         theme: {
