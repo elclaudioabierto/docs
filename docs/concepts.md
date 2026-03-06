@@ -18,3 +18,7 @@ A YAML file describing what to install or run.
 
 ## Registry
 A GitHub‑hosted index + recipes.
+
+:::tip Capability-first
+Name what you want to *do*, not which package you think you need.
+:::

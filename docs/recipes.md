@@ -22,3 +22,7 @@ steps:
       manager: brew
       name: chromium
 ```
+
+:::note
+`command.run` exists but should not be the only mechanism. Prefer declarative steps.
+:::
