@@ -1,12 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480">
-  <rect width="480" height="480" fill="#fefb00"/>
-  <g stroke="#000" stroke-width="8" fill="#fff">
-    <path d="M120 360c0-120 0-220 120-220s120 100 120 220v40l-30-18-30 18-30-18-30 18-30-18-30 18-30-18-30 18v-40z"/>
-    <circle cx="200" cy="230" r="16" fill="#000"/>
-    <circle cx="280" cy="230" r="16" fill="#000"/>
-    <path d="M210 280c10 8 40 8 50 0" fill="none"/>
+  <rect width="480" height="480" fill="#0a0a0a"/>
+  <rect x="28" y="28" width="424" height="424" fill="none" stroke="#00f5d4" stroke-width="6"/>
+
+  <!-- capability blocks -->
+  <g stroke="#000" stroke-width="6">
+    <rect x="90" y="110" width="140" height="90" fill="#00f5d4"/>
+    <rect x="250" y="150" width="140" height="90" fill="#ff4fd8"/>
+    <rect x="120" y="230" width="140" height="90" fill="#ffe96b"/>
+    <rect x="240" y="270" width="140" height="90" fill="#8b5cf6"/>
   </g>
-  <g stroke="#000" stroke-width="6" fill="none">
-    <rect x="60" y="60" width="360" height="360"/>
+
+  <!-- connectors -->
+  <g stroke="#ffffff" stroke-width="5" fill="none">
+    <path d="M160 200 L160 230"/>
+    <path d="M250 195 L250 235"/>
+    <path d="M200 275 L240 315"/>
   </g>
+
+  <!-- label -->
+  <text x="60" y="420" font-family="Space Mono, Menlo, monospace" font-size="26" fill="#00f5d4">capability blocks</text>
 </svg>
