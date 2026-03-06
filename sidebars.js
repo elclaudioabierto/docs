@@ -7,6 +7,7 @@ module.exports = {
     { type: 'doc', id: 'registry-schema' },
     { type: 'doc', id: 'recipes' },
     { type: 'doc', id: 'sources' },
-    { type: 'doc', id: 'roadmap' }
+    ,
+    { type: 'doc', id: 'support' }
   ]
 };
