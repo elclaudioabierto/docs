@@ -7,11 +7,18 @@ sidebar_position: 0
 **Capability provisioning for AI coding agents.** Minimal. Deterministic. Fun.
 
 <div className="hero-block">
-  <p className="hero-sub">Install capabilities like <strong>web‑automation</strong> without guessing commands.</p>
+  <p className="hero-sub">AgentKit turns messy setup into deterministic recipes. Agents install capabilities (not just packages) without guessing commands.</p>
   <div className="hero-cta">
     <code>npm i -g @claudioabierto/agentkit</code>
   </div>
+  <div style={{marginTop: '1rem', display: 'flex', gap: '0.75rem', flexWrap: 'wrap'}}>
+    <a className="button button--primary" href="/docs/getting-started">Get started</a>
+    <a className="button button--secondary" href="/docs/registry">Browse registry</a>
+  </div>
 </div>
+
+## What is AgentKit?
+AgentKit is a **capability provisioning layer** for AI coding agents. It sits between package managers (brew/npm/pip) and agent runtimes. Agents can **search**, **inspect**, and **add** capabilities using a GitHub‑hosted registry of recipes.
 
 ## Why it matters
 
@@ -29,6 +36,24 @@ sidebar_position: 0
     <p>Simple model: if a guess loop averages 8 calls and AgentKit needs 2, you save ~75% of setup tokens. More tokens to build what you want.</p>
   </div>
 </div>
+
+## How it works
+
+1) **Search** the registry for a capability
+2) **Inspect** the recipe and steps
+3) **Add** to execute the plan
+
+```bash
+agentkit search web-automation
+agentkit inspect web-automation
+agentkit add web-automation
+```
+
+## Example capabilities
+- web-automation (chromium + puppeteer)
+- media-transcription (yt-dlp + ffmpeg + faster-whisper)
+- presidio (PII redaction)
+- tensorflow-cpu / tensorflow-gpu
 
 ## Repos
 - Core: https://github.com/elclaudioabierto/agentkit
