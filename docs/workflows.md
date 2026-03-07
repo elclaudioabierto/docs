@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Workflows > Packages
 
-AgentKit’s real value is **multi‑step workflows**. Installing a package is table stakes; orchestrating a repeatable chain is the win.
+AgentKit’s real value is **multi‑step workflows**. Anyone can install a package; AgentKit makes the whole setup repeatable.
 
 ## Example workflows
 
