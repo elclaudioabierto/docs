@@ -13,6 +13,7 @@ sidebar_position: 0
   <div style={{marginTop: '1rem', display: 'flex', gap: '0.75rem', flexWrap: 'wrap'}}>
     <a className="button button--primary" href="/docs/getting-started">Get started</a>
     <a className="button button--secondary" href="/docs/registry">Browse registry</a>
+    <a className="button button--secondary" href="/docs/flow">Flow UI</a>
   </div>
   <div className="hero-stats">
     <div className="hero-stat"><strong>~75%</strong> fewer setup tokens</div>
@@ -21,11 +22,13 @@ sidebar_position: 0
   </div>
 </div>
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 ## What is AgentKit?
 AgentKit is a **capability provisioning layer** for AI coding agents. It sits between package managers (brew/npm/pip) and agent runtimes. Agents can **search**, **inspect**, and **add** capabilities using a GitHub‑hosted registry of recipes.
 
 <div style={{ marginTop: '1rem' }}>
-  <video src="/demo.mp4" controls playsInline style={{ width: '100%', border: '4px solid #fff', boxShadow: '10px 10px 0 #fff' }} />
+  <video src={useBaseUrl('/demo.mp4')} controls playsInline style={{ width: '100%', border: '4px solid #fff', boxShadow: '10px 10px 0 #fff' }} />
 </div>
 
 ## Why it matters
