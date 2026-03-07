@@ -9,11 +9,12 @@ When agents guess installs, they burn tokens on:
 - OS‑specific install commands
 - error messages & retries
 
-## Example
+## Quick example
 **Guessing loop:** 6–12 requests
 **AgentKit flow:** 1–2 requests
 
 **Result:** fewer tokens, faster setup, less frustration.
 
-## Simple model
-If a guess loop averages **8 calls** and AgentKit needs **2**, you save **~75%** of the token budget for setup.
+import TokenSavingsCalculator from '@site/src/components/TokenSavingsCalculator';
+
+<TokenSavingsCalculator />
