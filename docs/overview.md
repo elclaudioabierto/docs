@@ -25,6 +25,10 @@ AgentKit helps agents install **capabilities** (not just packages) using declara
 - **AgentKit** lets agents *install* capabilities
 
 ## Why it matters
+
+**Multi‑step workflows beat single installs.** AgentKit chains steps (download → extract → run → validate) so agents stop guessing and start executing.
+
+
 Agents burn tokens when they guess tooling. AgentKit makes installs repeatable, transparent, and agent‑friendly.
 
 ## Example

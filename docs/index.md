@@ -41,6 +41,21 @@ AgentKit is a **capability provisioning layer** for AI coding agents. It sits be
   </div>
 </div>
 
+## Multi‑step workflows (the real value)
+
+AgentKit turns a single intent into a deterministic chain of steps. That’s the difference between "install a package" and "make it work."
+
+**Example: Web automation**
+- install chromium
+- install puppeteer
+- safety check
+
+**Example: Media transcription**
+- install ffmpeg
+- install yt-dlp
+- download video
+- transcribe
+
 ## How it works
 
 1) **Search** the registry for a capability
