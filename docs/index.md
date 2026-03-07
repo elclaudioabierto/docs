@@ -25,7 +25,7 @@ sidebar_position: 0
 AgentKit is a **capability provisioning layer** for AI coding agents. It sits between package managers (brew/npm/pip) and agent runtimes. Agents can **search**, **inspect**, and **add** capabilities using a GitHub‑hosted registry of recipes.
 
 <div style={{ marginTop: '1rem' }}>
-  <video src="/static/demo.mp4" controls playsInline style={{ width: '100%', border: '4px solid #fff', boxShadow: '10px 10px 0 #fff' }} />
+  <video src="/demo.mp4" controls playsInline style={{ width: '100%', border: '4px solid #fff', boxShadow: '10px 10px 0 #fff' }} />
 </div>
 
 ## Why it matters
