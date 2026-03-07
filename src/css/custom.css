@@ -171,7 +171,10 @@ html[data-theme='dark'] .pagination-nav__link,
 html[data-theme='dark'] .alert,
 html[data-theme='dark'] .hero--primary,
 html[data-theme='dark'] .hero-block,
-html[data-theme='dark'] .hero-stat {
+html[data-theme='dark'] .hero-stat,
+html[data-theme='dark'] .theme-code-block,
+html[data-theme='dark'] .codeBlockContainer,
+html[data-theme='dark'] .prism-code {
   background: #000000;
   color: #ffffff;
 }
@@ -190,10 +193,23 @@ html[data-theme='dark'] a {
 
 html[data-theme='dark'] code,
 html[data-theme='dark'] pre,
-html[data-theme='dark'] .theme-code-block {
+html[data-theme='dark'] .theme-code-block,
+html[data-theme='dark'] .codeBlockContainer,
+html[data-theme='dark'] .prism-code {
   background: #000000;
   color: #ffffff;
   border-color: #fefb00;
+  box-shadow: 3px 3px 0 #fefb00;
+}
+
+html[data-theme='dark'] .markdown,
+html[data-theme='dark'] .markdown p,
+html[data-theme='dark'] .markdown li,
+html[data-theme='dark'] .markdown h1,
+html[data-theme='dark'] .markdown h2,
+html[data-theme='dark'] .markdown h3,
+html[data-theme='dark'] .markdown h4 {
+  color: #ffffff;
 }
 
 html[data-theme='dark'] input[type="number"],
