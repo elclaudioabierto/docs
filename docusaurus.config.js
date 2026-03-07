@@ -55,6 +55,10 @@ const config = {
   ],
 
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      respectPrefersColorScheme: false
+    },
     navbar: {
       title: 'AgentKit',
       items: [

@@ -151,15 +151,15 @@ code {
 
 /* Dark mode fixes */
 html[data-theme='dark'] {
-  --ifm-background-color: #111111;
-  --ifm-navbar-background-color: #111111;
-  --ifm-footer-background-color: #111111;
+  --ifm-background-color: #000000;
+  --ifm-navbar-background-color: #000000;
+  --ifm-footer-background-color: #000000;
 }
 
 html[data-theme='dark'],
 html[data-theme='dark'] body {
-  background: #111111;
-  color: #f5f5f5;
+  background: #000000;
+  color: #ffffff;
 }
 
 html[data-theme='dark'] .navbar,
@@ -169,19 +169,52 @@ html[data-theme='dark'] .menu,
 html[data-theme='dark'] .theme-doc-sidebar-menu,
 html[data-theme='dark'] .pagination-nav__link,
 html[data-theme='dark'] .alert,
-html[data-theme='dark'] .hero--primary {
-  background: #1a1a1a;
-  color: #f5f5f5;
+html[data-theme='dark'] .hero--primary,
+html[data-theme='dark'] .hero-block,
+html[data-theme='dark'] .hero-stat {
+  background: #000000;
+  color: #ffffff;
+}
+
+html[data-theme='dark'] .card,
+html[data-theme='dark'] .hero-stat,
+html[data-theme='dark'] .feature-card {
+  border-color: #ffffff;
+  box-shadow: 6px 6px 0 #ffffff;
 }
 
 html[data-theme='dark'] a {
-  color: #fff;
-  text-decoration-color: #fff;
+  color: #ffffff;
+  text-decoration-color: #ffffff;
 }
 
-html[data-theme='dark'] code {
-  background: #1a1a1a;
-  color: #fff;
+html[data-theme='dark'] code,
+html[data-theme='dark'] pre {
+  background: #000000;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+html[data-theme='dark'] input[type="number"],
+html[data-theme='dark'] input,
+html[data-theme='dark'] textarea,
+html[data-theme='dark'] select {
+  background: #000000;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+html[data-theme='dark'] .button--primary,
+html[data-theme='dark'] .button--secondary {
+  background: #000000;
+  color: #ffffff;
+  border-color: #ffffff;
+  box-shadow: 4px 4px 0 #ffffff;
+}
+
+html[data-theme='dark'] .menu__link,
+html[data-theme='dark'] .menu__link--active {
+  color: #ffffff;
 }
 
 /* Dark mode accent: use yellow highlight */
