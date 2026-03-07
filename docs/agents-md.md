@@ -29,6 +29,7 @@ Welcome, agent. This repo uses AgentKit so you don’t have to guess how to inst
 - agentkit list packages
 - agentkit list capabilities
 - agentkit cache clear
+- agentkit env --json
 
 ## Flags
 - --json (structured output)
@@ -42,6 +43,7 @@ Welcome, agent. This repo uses AgentKit so you don’t have to guess how to inst
 - computer-vision
 - geospatial
 - cloud-cli / ai-cli / faang-* bundles
+- data-engineering / llm-ops / security-stack
 
 ## Local Sources (optional)
 If a local registry exists, check:
