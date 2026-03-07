@@ -31,6 +31,7 @@ function CardList({ items }: { items: any[] }) {
           <div style={{ fontSize: 12, opacity: 0.7 }}>{item.kind}</div>
           <h3 style={{ marginTop: 6 }}>{item.name}</h3>
           <p style={{ marginTop: 6 }}>{item.description}</p>
+          <div className="code-chip">agentkit add {item.id}</div>
         </div>
       ))}
     </div>

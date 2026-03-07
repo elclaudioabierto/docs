@@ -21,8 +21,17 @@ sidebar_position: 0
   </div>
 </div>
 
+import NeoBrutalistGraph from '@site/src/components/NeoBrutalistGraph';
+
 ## What is AgentKit?
 AgentKit is a **capability provisioning layer** for AI coding agents. It sits between package managers (brew/npm/pip) and agent runtimes. Agents can **search**, **inspect**, and **add** capabilities using a GitHub‑hosted registry of recipes.
+
+<div style={{ marginTop: '1rem' }}>
+  <NeoBrutalistGraph nodeCount={40} speed={0.6} lineDistance={170} interactionStrength={140} />
+  <p style={{ marginTop: '0.75rem' }}>
+    A living network of capabilities: nodes move, connect, and respond to your cursor — like an agent graph in motion.
+  </p>
+</div>
 
 ## Why it matters
 
