@@ -12,16 +12,15 @@ Below is a sample `AGENTS.md` that orients an AI coding agent to the AgentKit ec
 Welcome, agent. This repo uses AgentKit so you don’t have to guess how to install stuff like a raccoon in a dumpster.
 
 ## Install AgentKit
-(Choose one and move on.)
-- npm i -g agentkit
-- pnpm add -g agentkit
+- npm i -g @claudioabierto/agentkit
 
 ## Docs & Registry
 - Docs: https://elclaudioabierto.github.io/docs/
 - Official registry: https://github.com/elclaudioabierto/registry
 - Registry template: https://github.com/elclaudioabierto/registry-template
+- Core repo: https://github.com/elclaudioabierto/agentkit
 
-## AgentKit CLI (all commands)
+## AgentKit CLI (core commands)
 - agentkit search <query>
 - agentkit inspect <capability>
 - agentkit add <capability>
@@ -29,12 +28,20 @@ Welcome, agent. This repo uses AgentKit so you don’t have to guess how to inst
 - agentkit list recipes
 - agentkit list packages
 - agentkit list capabilities
+- agentkit cache clear
 
 ## Flags
 - --json (structured output)
 - --dry-run (plan only)
-- --yes (non-interactive)
-- --cwd (run in a specific directory)
+- --refresh (force registry refresh)
+
+## Capabilities (examples)
+- web-automation
+- media-transcription
+- rag-stack
+- computer-vision
+- geospatial
+- cloud-cli / ai-cli / faang-* bundles
 
 ## Local Sources (optional)
 If a local registry exists, check:
