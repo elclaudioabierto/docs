@@ -31,7 +31,18 @@ function CardList({ items }: { items: any[] }) {
           <div style={{ fontSize: 12, opacity: 0.7 }}>{item.kind}</div>
           <h3 style={{ marginTop: 6 }}>{item.name}</h3>
           <p style={{ marginTop: 6 }}>{item.description}</p>
-          <div className="code-chip">agentkit add {item.id}</div>
+          <div className="code-chip">
+            <span>agentkit add {item.id}</span>
+            <button
+              className="copy-btn"
+              onClick={() => navigator.clipboard.writeText(`agentkit add ${item.id}`)}
+              aria-label={`Copy agentkit add ${item.id}`}
+            >
+              <svg viewBox="0 0 448 512" aria-hidden="true">
+                <path d="M384 96L192 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l192 0c17.7 0 32-14.3 32-32l0-256c0-17.7-14.3-32-32-32zM416 384c0 17.7-14.3 32-32 32l-192 0c-17.7 0-32-14.3-32-32l0-256c0-17.7 14.3-32 32-32l192 0c17.7 0 32 14.3 32 32l0 256zM64 128l0 256c0 17.7 14.3 32 32 32l32 0 0 64c0 17.7-14.3 32-32 32l-32 0c-53 0-96-43-96-96l0-256c0-53 43-96 96-96l32 0 0 64-32 0c-17.7 0-32 14.3-32 32z"/>
+              </svg>
+            </button>
+          </div>
         </div>
       ))}
     </div>
