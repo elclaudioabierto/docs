@@ -189,7 +189,8 @@ html[data-theme='dark'] a {
 }
 
 html[data-theme='dark'] code,
-html[data-theme='dark'] pre {
+html[data-theme='dark'] pre,
+html[data-theme='dark'] .theme-code-block {
   background: #000000;
   color: #ffffff;
   border-color: #fefb00;
