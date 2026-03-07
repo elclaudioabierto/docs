@@ -4,15 +4,8 @@ sidebar_position: 6
 
 # Registry
 
-This is a live snapshot of recipes from the official GitHub registry.
+This page groups the live registry by category.
 
-import RegistryCards from '@site/src/components/RegistryCards';
+import RegistryCategories from '@site/src/components/RegistryCategories';
 
-## Recipes
-<RegistryCards section="recipes" />
-
-## Packages
-<RegistryCards section="packages" />
-
-## Capabilities
-<RegistryCards section="capabilities" />
+<RegistryCategories />

@@ -1,6 +1,364 @@
 {
   "recipes": [
     {
+      "id": "backend-api",
+      "name": "Backend API Stack",
+      "description": "FastAPI + Uvicorn + HTTPie in a local uv venv.",
+      "tags": [
+        "fastapi",
+        "uvicorn"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "api",
+        "backend"
+      ]
+    },
+    {
+      "id": "data-science",
+      "name": "Data Science Stack",
+      "description": "Jupyter + NumPy + pandas + matplotlib + seaborn.",
+      "tags": [
+        "jupyter",
+        "pandas",
+        "numpy"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "container-dev",
+      "name": "Container Dev Stack",
+      "description": "Docker + kubectl + Helm + k9s.",
+      "tags": [
+        "docker",
+        "kubernetes",
+        "helm"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "devops"
+      ]
+    },
+    {
+      "id": "observability",
+      "name": "Observability Stack",
+      "description": "Grafana + Prometheus + Loki for local observability.",
+      "tags": [
+        "grafana",
+        "prometheus",
+        "loki"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "observability",
+        "devops"
+      ]
+    },
+    {
+      "id": "git-tools",
+      "name": "Git Tools",
+      "description": "GitHub CLI + git-lfs + lazygit.",
+      "tags": [
+        "git",
+        "gh",
+        "git-lfs",
+        "lazygit"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "devtools"
+      ]
+    },
+    {
+      "id": "scraping-stack",
+      "name": "Scraping Stack",
+      "description": "End-to-end web scraping with Playwright + Python extraction.",
+      "tags": [
+        "playwright",
+        "bs4",
+        "requests"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "scraping",
+        "web-automation"
+      ]
+    },
+    {
+      "id": "llm-ops",
+      "name": "LLM Ops Toolkit",
+      "description": "Evals + prompt testing + routing tools.",
+      "tags": [
+        "litellm",
+        "ragas",
+        "promptfoo"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "ai",
+        "evals"
+      ]
+    },
+    {
+      "id": "mobile-dev",
+      "name": "Mobile Dev (Android)",
+      "description": "Android Studio + adb + Flutter.",
+      "tags": [
+        "android",
+        "flutter"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "mobile",
+        "devtools"
+      ]
+    },
+    {
+      "id": "security-stack",
+      "name": "Security Stack",
+      "description": "Semgrep + Trivy + OWASP ZAP.",
+      "tags": [
+        "semgrep",
+        "trivy",
+        "zap"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "security",
+        "devops"
+      ]
+    },
+    {
+      "id": "data-engineering",
+      "name": "Data Engineering Stack",
+      "description": "DuckDB + dbt + PyArrow + Polars.",
+      "tags": [
+        "duckdb",
+        "dbt",
+        "polars"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "data"
+      ]
+    },
+    {
+      "id": "cloud-cli",
+      "name": "Cloud CLIs",
+      "description": "Install Vercel CLI and AWS CLI.",
+      "tags": [
+        "vercel",
+        "aws"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "cloud",
+        "devops"
+      ]
+    },
+    {
+      "id": "ai-cli",
+      "name": "AI CLIs",
+      "description": "Install Codex, Gemini, and Claude Code CLIs.",
+      "tags": [
+        "codex",
+        "gemini",
+        "claude"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "ai",
+        "devtools"
+      ]
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "description": "Install the OpenClaw CLI and gateway tools.",
+      "tags": [
+        "openclaw"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "openclaw"
+      ]
+    },
+    {
+      "id": "google-workspace",
+      "name": "Google Workspace CLI",
+      "description": "Install the Google Workspace CLI.",
+      "tags": [
+        "workspace"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "google"
+      ]
+    },
+    {
+      "id": "faang-cloud",
+      "name": "FAANG Cloud Pack",
+      "description": "AWS + GCP + Azure CLIs.",
+      "tags": [
+        "aws",
+        "gcp",
+        "azure"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "cloud",
+        "devops"
+      ]
+    },
+    {
+      "id": "faang-ai",
+      "name": "FAANG AI Pack",
+      "description": "Codex + Gemini + Claude Code CLIs.",
+      "tags": [
+        "codex",
+        "gemini",
+        "claude"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "ai",
+        "devtools"
+      ]
+    },
+    {
+      "id": "faang-dev",
+      "name": "FAANG Dev Pack",
+      "description": "GitHub CLI + Docker + Terraform + kubectl.",
+      "tags": [
+        "github",
+        "docker",
+        "terraform",
+        "kubectl"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "devtools"
+      ]
+    },
+    {
+      "id": "db-stack",
+      "name": "Databases Stack",
+      "description": "Install PostgreSQL, MongoDB, and DuckDB.",
+      "tags": [
+        "postgres",
+        "mongodb",
+        "duckdb"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "databases"
+      ]
+    },
+    {
+      "id": "geospatial",
+      "name": "Geospatial Stack",
+      "description": "GDAL + QGIS + PostGIS + Python geospatial stack.",
+      "tags": [
+        "gdal",
+        "qgis",
+        "postgis"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "geospatial"
+      ]
+    },
+    {
+      "id": "dev-aliases",
+      "name": "Dev Aliases (zsh)",
+      "description": "Useful zsh aliases for Node, Vercel, ports, and utilities.",
+      "tags": [
+        "zsh",
+        "aliases"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "devtools"
+      ]
+    },
+    {
+      "id": "computer-vision",
+      "name": "Computer Vision Bundle",
+      "description": "MediaPipe + OpenCV + Pillow + ffmpeg in a local uv venv.",
+      "tags": [
+        "mediapipe",
+        "opencv",
+        "ffmpeg"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "computer-vision"
+      ]
+    },
+    {
+      "id": "redaction",
+      "name": "Redaction Bundle",
+      "description": "Presidio + spaCy + PDF tools for PII redaction.",
+      "tags": [
+        "presidio",
+        "spacy"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "redaction",
+        "privacy"
+      ]
+    },
+    {
+      "id": "media-toolkit",
+      "name": "Media Toolkit",
+      "description": "ffmpeg + yt-dlp + faster-whisper in a local uv venv.",
+      "tags": [
+        "ffmpeg",
+        "yt-dlp",
+        "whisper"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "media",
+        "transcription"
+      ]
+    },
+    {
+      "id": "frontend-dev",
+      "name": "Frontend Dev Bundle",
+      "description": "Node.js + pnpm + eslint + prettier.",
+      "tags": [
+        "node",
+        "pnpm",
+        "eslint",
+        "prettier"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "frontend-app",
+        "devtools"
+      ]
+    },
+    {
+      "id": "rag-stack",
+      "name": "RAG Stack",
+      "description": "markitdown + chromadb + Next.js search UI with Litestream.",
+      "tags": [
+        "markitdown",
+        "chromadb",
+        "nextjs"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "rag",
+        "search"
+      ]
+    },
+    {
       "id": "media-transcription",
       "name": "Media Transcription (ffmpeg + yt-dlp + faster-whisper)",
       "description": "Download a YouTube video, extract audio, and run local transcription with faster-whisper.",
@@ -10,17 +368,107 @@
         "whisper",
         "audio"
       ],
-      "kind": "capability"
+      "kind": "capability",
+      "capabilities": [
+        "media",
+        "transcription"
+      ]
     },
     {
       "id": "fast-agent",
       "name": "fast-agent",
-      "description": "Install fast-agent via uv (preferred) with pip3 fallback.",
+      "description": "Install fast-agent via uv tool (fast-agent-mcp).",
       "tags": [
         "python",
         "agents"
       ],
-      "kind": "package"
+      "kind": "package",
+      "capabilities": [
+        "agent-runtime",
+        "ai-tools"
+      ]
+    },
+    {
+      "id": "tensorflow-cpu",
+      "name": "TensorFlow (CPU)",
+      "description": "Install TensorFlow CPU in a local uv venv.",
+      "tags": [
+        "tensorflow",
+        "cpu"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "ml",
+        "tensorflow"
+      ]
+    },
+    {
+      "id": "tensorflow-gpu",
+      "name": "TensorFlow (GPU)",
+      "description": "Install TensorFlow GPU in a local uv venv.",
+      "tags": [
+        "tensorflow",
+        "gpu"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "ml",
+        "tensorflow",
+        "gpu"
+      ]
+    },
+    {
+      "id": "presidio",
+      "name": "Presidio (PII detection/redaction)",
+      "description": "Install Presidio analyzer + anonymizer in a local uv venv.",
+      "tags": [
+        "presidio",
+        "pii"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "redaction",
+        "privacy"
+      ]
+    },
+    {
+      "id": "mediapipe",
+      "name": "MediaPipe",
+      "description": "Install MediaPipe in a local uv venv.",
+      "tags": [
+        "mediapipe",
+        "vision"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "computer-vision"
+      ]
+    },
+    {
+      "id": "markdown-pandoc",
+      "name": "Markdown + Pandoc",
+      "description": "Install Pandoc for robust markdown conversion.",
+      "tags": [
+        "pandoc"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "markdown",
+        "docs"
+      ]
+    },
+    {
+      "id": "latex",
+      "name": "LaTeX",
+      "description": "Install MacTeX for LaTeX toolchain.",
+      "tags": [
+        "latex"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "latex",
+        "docs"
+      ]
     },
     {
       "id": "nextjs-tailwind-ui",
@@ -31,7 +479,10 @@
         "tailwind",
         "ui"
       ],
-      "kind": "capability"
+      "kind": "capability",
+      "capabilities": [
+        "frontend-app"
+      ]
     },
     {
       "id": "r",
@@ -42,7 +493,11 @@
         "statistics",
         "data"
       ],
-      "kind": "package"
+      "kind": "package",
+      "capabilities": [
+        "data-science",
+        "statistics"
+      ]
     },
     {
       "id": "chromium",
@@ -52,7 +507,11 @@
         "automation",
         "browser"
       ],
-      "kind": "recipe"
+      "kind": "recipe",
+      "capabilities": [
+        "browser",
+        "web-automation"
+      ]
     },
     {
       "id": "puppeteer",
@@ -62,7 +521,11 @@
         "automation",
         "browser"
       ],
-      "kind": "recipe"
+      "kind": "recipe",
+      "capabilities": [
+        "browser",
+        "web-automation"
+      ]
     },
     {
       "id": "selenium",
@@ -72,7 +535,11 @@
         "automation",
         "browser"
       ],
-      "kind": "recipe"
+      "kind": "recipe",
+      "capabilities": [
+        "browser",
+        "web-automation"
+      ]
     },
     {
       "id": "web-automation",
@@ -81,56 +548,10 @@
       "tags": [
         "capability"
       ],
-      "kind": "recipe"
+      "kind": "recipe",
+      "capabilities": [
+        "web-automation"
+      ]
     }
-  ],
-  "packages": [
-    {
-      "id": "fast-agent",
-      "name": "fast-agent",
-      "description": "Install fast-agent via uv (preferred) with pip3 fallback.",
-      "tags": [
-        "python",
-        "agents"
-      ],
-      "kind": "package"
-    },
-    {
-      "id": "r",
-      "name": "R",
-      "description": "Install R and common packages for analysis on macOS.",
-      "tags": [
-        "r",
-        "statistics",
-        "data"
-      ],
-      "kind": "package"
-    }
-  ],
-  "capabilities": [
-    {
-      "id": "media-transcription",
-      "name": "Media Transcription (ffmpeg + yt-dlp + faster-whisper)",
-      "description": "Download a YouTube video, extract audio, and run local transcription with faster-whisper.",
-      "tags": [
-        "ffmpeg",
-        "yt-dlp",
-        "whisper",
-        "audio"
-      ],
-      "kind": "capability"
-    },
-    {
-      "id": "nextjs-tailwind-ui",
-      "name": "Next.js + Tailwind UI",
-      "description": "Scaffold a Next.js app with a Tailwind UI-style starter layout.",
-      "tags": [
-        "nextjs",
-        "tailwind",
-        "ui"
-      ],
-      "kind": "capability"
-    }
-  ],
-  "aliases": []
+  ]
 }
