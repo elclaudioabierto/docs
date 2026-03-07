@@ -4,9 +4,8 @@ sidebar_position: 0
 
 # AgentKit
 
-**Capability provisioning for AI coding agents.** Minimal. Deterministic. Fun.
-
 <div className="hero-block">
+  <div className="hero-title">Capability provisioning for AI coding agents.</div>
   <p className="hero-sub">AgentKit turns messy setup into deterministic recipes. Agents install capabilities (not just packages) without guessing commands.</p>
   <div className="hero-cta">
     <code>npm i -g @claudioabierto/agentkit</code>
@@ -14,6 +13,11 @@ sidebar_position: 0
   <div style={{marginTop: '1rem', display: 'flex', gap: '0.75rem', flexWrap: 'wrap'}}>
     <a className="button button--primary" href="/docs/getting-started">Get started</a>
     <a className="button button--secondary" href="/docs/registry">Browse registry</a>
+  </div>
+  <div className="hero-stats">
+    <div className="hero-stat"><strong>~75%</strong> fewer setup tokens</div>
+    <div className="hero-stat"><strong>1–2</strong> commands to install</div>
+    <div className="hero-stat"><strong>GitHub‑native</strong> registry</div>
   </div>
 </div>
 
