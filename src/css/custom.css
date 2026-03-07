@@ -234,6 +234,17 @@ html[data-theme='dark'] .menu__link--active {
   color: #ffffff;
 }
 
+html[data-theme='dark'] .breadcrumbs__item .breadcrumbs__link {
+  background: #000;
+  border: 2px solid #fefb00;
+  color: #fff;
+}
+
+html[data-theme='dark'] .breadcrumbs__item--active .breadcrumbs__link {
+  background: #fefb00;
+  color: #000;
+}
+
 /* Dark mode accent: use yellow highlight */
 html[data-theme='dark'] ::selection {
   background: #fefb00;
