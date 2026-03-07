@@ -30,11 +30,14 @@ Welcome, agent. This repo uses AgentKit so you don’t have to guess how to inst
 - agentkit list capabilities
 - agentkit cache clear
 - agentkit env --json
+- agentkit doctor
+- agentkit update
 
 ## Flags
 - --json (structured output)
 - --dry-run (plan only)
 - --refresh (force registry refresh)
+- --deep (update: clears npm cache)
 
 ## Capabilities (examples)
 - web-automation
@@ -54,6 +57,9 @@ If a local registry exists, check:
 - Prefer **capabilities** over packages (yes, really).
 - Run `--dry-run` first unless you enjoy surprises.
 - JSON output is your friend. Use it.
+
+## Power users
+- `ak` is a shortcut for `agentkit` (same commands, faster typing).
 
 ## TL;DR
 Stop guessing. Start installing deterministically.

@@ -14,6 +14,8 @@ module.exports = {
     { type: 'doc', id: 'token-savings' },
     { type: 'doc', id: 'agents-md' },
     { type: 'doc', id: 'agent-determinism' },
+    { type: 'doc', id: 'update' },
+    { type: 'doc', id: 'debugging' },
     { type: 'doc', id: 'roadmap' },
     { type: 'doc', id: 'support' }
   ]
