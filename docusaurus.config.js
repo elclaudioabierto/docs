@@ -63,6 +63,7 @@ const config = {
       title: 'AgentKit',
       items: [
         { type: 'docSidebar', sidebarId: 'docsSidebar', position: 'left', label: 'Docs' },
+        { to: '/faq', label: 'FAQ', position: 'left' },
         { href: 'https://github.com/elclaudioabierto/agentkit', label: 'GitHub', position: 'right' },
         { to: '/support', label: 'Donate', position: 'right' }
       ]
