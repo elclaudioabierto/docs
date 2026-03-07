@@ -31,6 +31,26 @@ html, body {
   border-radius: 0;
 }
 
+/* Sidebar readability */
+.menu__link {
+  color: #000;
+  font-weight: 600;
+}
+
+.menu__link--active {
+  color: #000;
+  background: #fff;
+}
+
+html[data-theme='dark'] .menu__link {
+  color: #f5f5f5;
+}
+
+html[data-theme='dark'] .menu__link--active {
+  color: #fff;
+  background: #111;
+}
+
 .pagination-nav__link {
   background: #fff;
 }
