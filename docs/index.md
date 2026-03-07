@@ -46,7 +46,7 @@ AgentKit is a **capability provisioning layer** for AI coding agents. It sits be
   </div>
   <div className="card feature-card">
     <h3>Token savings</h3>
-    <p>Simple model: if a guess loop averages 8 calls and AgentKit needs 2, you save ~75% of setup tokens. More tokens to build what you want.</p>
+    <p>Fewer guess loops means fewer LLM tokens (and $$$)!</p>
   </div>
 </div>
 
