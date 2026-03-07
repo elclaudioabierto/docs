@@ -348,6 +348,15 @@ html[data-theme='dark'] .menu__link--active {
   color: #ffffff;
 }
 
+html[data-theme='dark'] .pagination-nav__link:hover {
+  background: #fefb00;
+  color: #000;
+}
+
+html[data-theme='dark'] .pagination-nav__link:hover * {
+  color: #000;
+}
+
 html[data-theme='dark'] .breadcrumbs__item .breadcrumbs__link {
   background: #000;
   border: 2px solid #fefb00;
