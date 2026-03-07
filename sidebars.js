@@ -19,6 +19,7 @@ module.exports = {
     { type: 'doc', id: 'debugging' },
     { type: 'doc', id: 'troubleshooting' },
     { type: 'doc', id: 'roadmap' },
-    { type: 'doc', id: 'support' }
+    { type: 'doc', id: 'support' },
+    { type: 'doc', id: 'acknowledgements' }
   ]
 };
