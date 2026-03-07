@@ -2,6 +2,8 @@
 sidebar_position: 0
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # AgentKit
 
 <div className="homepage-layout">
@@ -24,14 +26,18 @@ sidebar_position: 0
   </div>
 </div>
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
+<section className="section-band">
 
 ## What is AgentKit?
 AgentKit is a **capability provisioning layer** for AI coding agents. It sits between package managers (brew/npm/pip) and agent runtimes. Agents can **search**, **inspect**, and **add** capabilities using a GitHub‑hosted registry of recipes.
 
-<div style={{ marginTop: '1rem' }}>
-  <video src={useBaseUrl('/demo.mp4')} controls playsInline style={{ width: '100%', border: '4px solid #fff', boxShadow: '10px 10px 0 #fff' }} />
+<div className="video-frame">
+  <video src={useBaseUrl('/demo.mp4')} controls playsInline />
 </div>
+
+</section>
+
+<section className="section-band section-band--alt">
 
 ## Why it matters
 
@@ -48,28 +54,32 @@ AgentKit is a **capability provisioning layer** for AI coding agents. It sits be
     <h3>Token savings</h3>
     <p>Fewer guess loops means fewer LLM tokens (and $$$)!</p>
   </div>
+  <div className="card feature-card">
+    <h3>Auditability</h3>
+    <p>Every step is explicit, reviewable, and reproducible.</p>
+  </div>
 </div>
 
-## Multi‑step workflows (the real value)
+</section>
 
-AgentKit turns a single intent into a deterministic chain of steps. That’s the difference between "install a package" and "make it work."
-
-**Example: Web automation**
-- install chromium
-- install puppeteer
-- safety check
-
-**Example: Media transcription**
-- install ffmpeg
-- install yt-dlp
-- download video
-- transcribe
+<section className="section-band">
 
 ## How it works
 
-1) **Search** the registry for a capability
-2) **Inspect** the recipe and steps
-3) **Add** to execute the plan
+<div className="step-grid">
+  <div className="card step-card">
+    <div className="step-title">1) Search</div>
+    <p>Find the capability you need in the registry.</p>
+  </div>
+  <div className="card step-card">
+    <div className="step-title">2) Inspect</div>
+    <p>Review every step before anything runs.</p>
+  </div>
+  <div className="card step-card">
+    <div className="step-title">3) Add</div>
+    <p>Execute the deterministic plan with logs.</p>
+  </div>
+</div>
 
 ```bash
 agentkit search web-automation
@@ -77,16 +87,64 @@ agentkit inspect web-automation
 agentkit add web-automation
 ```
 
+</section>
+
+<section className="section-band section-band--alt">
+
+## Use cases
+
+<div className="usecase-grid">
+  <div className="card usecase-card">
+    <h3>Web automation</h3>
+    <ul>
+      <li>install chromium</li>
+      <li>install puppeteer</li>
+      <li>safety check</li>
+    </ul>
+  </div>
+  <div className="card usecase-card">
+    <h3>Media transcription</h3>
+    <ul>
+      <li>install ffmpeg</li>
+      <li>install yt-dlp</li>
+      <li>download video</li>
+      <li>transcribe</li>
+    </ul>
+  </div>
+  <div className="card usecase-card">
+    <h3>PII redaction</h3>
+    <ul>
+      <li>install presidio</li>
+      <li>configure analyzers</li>
+      <li>run redaction</li>
+    </ul>
+  </div>
+</div>
+
+</section>
+
+<section className="section-band">
+
 ## Example capabilities
-- web-automation (chromium + puppeteer)
-- media-transcription (yt-dlp + ffmpeg + faster-whisper)
-- presidio (PII redaction)
-- tensorflow-cpu / tensorflow-gpu
+
+<div className="pill-list">
+  <span className="pill">web-automation</span>
+  <span className="pill">media-transcription</span>
+  <span className="pill">presidio</span>
+  <span className="pill">tensorflow-cpu</span>
+  <span className="pill">tensorflow-gpu</span>
+</div>
+
+</section>
+
+<section className="section-band section-band--alt">
 
 ## Repos
 - Core: https://github.com/elclaudioabierto/agentkit
 - Registry: https://github.com/elclaudioabierto/registry
 - Registry Template: https://github.com/elclaudioabierto/registry-template
 - Docs: https://github.com/elclaudioabierto/docs
+
+</section>
 
 </div>
