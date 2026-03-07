@@ -509,7 +509,7 @@ html[data-theme='dark'] .homepage-hero .button {
 
 .code-chip {
   margin-top: 10px;
-  padding: 6px 8px;
+  padding: 8px 10px;
   border: 2px solid #fefb00;
   box-shadow: 3px 3px 0 #fefb00;
   font-family: "Space Mono", monospace;
@@ -520,7 +520,7 @@ html[data-theme='dark'] .homepage-hero .button {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .copy-btn {
@@ -537,6 +537,7 @@ html[data-theme='dark'] .homepage-hero .button {
   min-height: 28px;
   border-radius: 6px;
   overflow: visible;
+  flex-shrink: 0;
 }
 
 .copy-btn svg {
