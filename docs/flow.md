@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Flow UI
 
-The **Flow UI** is a visual builder for AgentKit workflows. Use it to design node‑based flows, simulate runs, and send flows directly to OpenClaw.
+The **Flow UI** is an OpenClaw accessibility tool — a visual builder for node‑based flows that can be executed via the OpenClaw gateway.
 
 ## Install
 
@@ -22,6 +22,10 @@ Then open http://localhost:3000.
 - Inspector for node config (prompts, thresholds, tags)
 - Simulation mode for dry‑run steps
 - “Run in OpenClaw” to execute via gateway
+
+## Positioning
+
+Flow UI is **not** the AgentKit CLI — it’s a companion tool for OpenClaw accessibility workflows.
 
 ## Notes
 
