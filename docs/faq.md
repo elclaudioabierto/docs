@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # FAQ
 
+> ✨ Quick answers, zero fluff.
+
 ## “Isn’t this just GitHub Actions?”
 No. GitHub Actions runs workflows in CI. AgentKit provisions **capabilities** on a machine (developer or agent) using deterministic recipes and registries. It’s a different layer.
 
