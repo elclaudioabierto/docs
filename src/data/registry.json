@@ -1,0 +1,85 @@
+[
+  {
+    "id": "media-transcription",
+    "name": "Media Transcription (ffmpeg + yt-dlp + faster-whisper)",
+    "description": "Download a YouTube video, extract audio, and run local transcription with faster-whisper.",
+    "tags": [
+      "ffmpeg",
+      "yt-dlp",
+      "whisper",
+      "audio"
+    ],
+    "kind": "capability"
+  },
+  {
+    "id": "fast-agent",
+    "name": "fast-agent",
+    "description": "Install fast-agent via uv (preferred) with pip3 fallback.",
+    "tags": [
+      "python",
+      "agents"
+    ],
+    "kind": "package"
+  },
+  {
+    "id": "nextjs-tailwind-ui",
+    "name": "Next.js + Tailwind UI",
+    "description": "Scaffold a Next.js app with a Tailwind UI-style starter layout.",
+    "tags": [
+      "nextjs",
+      "tailwind",
+      "ui"
+    ],
+    "kind": "capability"
+  },
+  {
+    "id": "r",
+    "name": "R",
+    "description": "Install R and common packages for analysis on macOS.",
+    "tags": [
+      "r",
+      "statistics",
+      "data"
+    ],
+    "kind": "package"
+  },
+  {
+    "id": "chromium",
+    "name": "Chromium",
+    "description": "Install and use Chromium automation",
+    "tags": [
+      "automation",
+      "browser"
+    ],
+    "kind": "recipe"
+  },
+  {
+    "id": "puppeteer",
+    "name": "Puppeteer",
+    "description": "Use Puppeteer for browser automation tasks",
+    "tags": [
+      "automation",
+      "browser"
+    ],
+    "kind": "recipe"
+  },
+  {
+    "id": "selenium",
+    "name": "Selenium",
+    "description": "Use Selenium WebDriver automation",
+    "tags": [
+      "automation",
+      "browser"
+    ],
+    "kind": "recipe"
+  },
+  {
+    "id": "web-automation",
+    "name": "Web Automation Capability",
+    "description": "Capability recipe for common web automation setup",
+    "tags": [
+      "capability"
+    ],
+    "kind": "recipe"
+  }
+]

@@ -4,9 +4,8 @@ sidebar_position: 6
 
 # Registry
 
-A registry is a GitHub‑hosted index plus YAML recipes.
+This is a live snapshot of recipes from the official GitHub registry.
 
-- Index = what exists
-- Recipes = how to install it
+import RegistryCards from '@site/src/components/RegistryCards';
 
-AgentKit reads from GitHub raw URLs by default.
+<RegistryCards />
