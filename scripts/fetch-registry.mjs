@@ -19,5 +19,12 @@ const recipes = (data.recipes || []).map((r) => ({
   kind: r.kind || 'recipe'
 }));
 
-await fs.writeFile(outPath, JSON.stringify(recipes, null, 2));
+const packages = recipes.filter((r) => r.kind === 'package');
+const capabilities = recipes.filter((r) => r.kind === 'capability');
+const aliases = recipes.filter((r) => r.kind === 'alias');
+
+await fs.writeFile(
+  outPath,
+  JSON.stringify({ recipes, packages, capabilities, aliases }, null, 2)
+);
 console.log(`Wrote ${recipes.length} recipes to ${outPath}`);
