@@ -13,6 +13,7 @@ module.exports = {
     { type: 'doc', id: 'sources' },
     { type: 'doc', id: 'token-savings' },
     { type: 'doc', id: 'agents-md' },
+    { type: 'doc', id: 'agent-determinism' },
     { type: 'doc', id: 'roadmap' },
     { type: 'doc', id: 'support' }
   ]
