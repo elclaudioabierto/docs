@@ -4,6 +4,8 @@ sidebar_position: 0
 
 # AgentKit
 
+<div className="homepage-layout">
+
 <div className="hero-block">
   <div className="hero-title">Capability provisioning for AI coding agents.</div>
   <p className="hero-sub">AgentKit turns messy setup into deterministic recipes. Agents install capabilities (not just packages) without guessing commands.</p>
@@ -86,3 +88,5 @@ agentkit add web-automation
 - Registry: https://github.com/elclaudioabierto/registry
 - Registry Template: https://github.com/elclaudioabierto/registry-template
 - Docs: https://github.com/elclaudioabierto/docs
+
+</div>
