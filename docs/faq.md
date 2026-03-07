@@ -22,3 +22,7 @@ Multi‑step workflows. Not just installing one package, but orchestrating the e
 - AI coding agents that need reliable setup
 - Humans who want a clean, repeatable environment
 - Teams that want fewer install surprises
+
+<div className="faq-callout">
+  This isn’t a chef recipe you *read* — it’s a kitchen you *install*.
+</div>
