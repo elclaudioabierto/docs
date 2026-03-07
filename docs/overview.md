@@ -40,11 +40,30 @@ Returns a plan with resolved recipes, steps, and changes.
 ## How it works (flow)
 
 ```mermaid
-flowchart LR
-  A[Agent request] --> B[agentkit search/inspect]
-  B --> C[Resolve recipes]
-  C --> D[Validate schema]
-  D --> E[Plan steps]
-  E --> F[Execute or dry-run]
-  F --> G[Capability installed]
+flowchart TD
+
+A["Agent Request"]
+--> B["Agentkit
+Search / Inspect"]
+
+B
+--> C["Resolve
+Recipes"]
+
+C
+--> D["Validate
+Schema"]
+
+D
+--> E["Plan
+Steps"]
+
+E
+--> F["Execute
+or
+Dry-Run"]
+
+F
+--> G["Capability
+Installed"]
 ```

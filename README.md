@@ -13,3 +13,6 @@ Docusaurus documentation site for AgentKit.
 pnpm install
 pnpm start
 ```
+
+## TODO: 
+[Upload to ](https://agents.md/) Agents.md repo
