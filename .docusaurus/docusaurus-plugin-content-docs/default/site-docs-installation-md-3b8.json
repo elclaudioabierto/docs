@@ -1,0 +1,26 @@
+{
+  "id": "installation",
+  "title": "Installation",
+  "description": "Install the CLI",
+  "source": "@site/docs/installation.md",
+  "sourceDirName": ".",
+  "slug": "/installation",
+  "permalink": "/docs/installation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/overview"
+  },
+  "next": {
+    "title": "Core Concepts",
+    "permalink": "/docs/concepts"
+  }
+}

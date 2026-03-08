@@ -1,0 +1,26 @@
+{
+  "id": "registry-schema",
+  "title": "Registry Schema",
+  "description": "The registry index is a YAML file listing available recipes.",
+  "source": "@site/docs/registry-schema.md",
+  "sourceDirName": ".",
+  "slug": "/registry-schema",
+  "permalink": "/docs/registry-schema",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Registry",
+    "permalink": "/docs/registry"
+  },
+  "next": {
+    "title": "Adding Sources",
+    "permalink": "/docs/sources"
+  }
+}

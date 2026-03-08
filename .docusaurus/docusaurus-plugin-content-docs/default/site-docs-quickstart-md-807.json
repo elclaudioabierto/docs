@@ -1,0 +1,26 @@
+{
+  "id": "quickstart",
+  "title": "Quickstart",
+  "description": "Get from zero to a working capability in ~60 seconds.",
+  "source": "@site/docs/quickstart.md",
+  "sourceDirName": ".",
+  "slug": "/quickstart",
+  "permalink": "/docs/quickstart",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/getting-started"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/overview"
+  }
+}

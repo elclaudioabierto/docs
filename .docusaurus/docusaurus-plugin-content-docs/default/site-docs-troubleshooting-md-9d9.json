@@ -1,0 +1,26 @@
+{
+  "id": "troubleshooting",
+  "title": "Troubleshooting",
+  "description": "Nothing happens when I run agentkit add",
+  "source": "@site/docs/troubleshooting.md",
+  "sourceDirName": ".",
+  "slug": "/troubleshooting",
+  "permalink": "/docs/troubleshooting",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Debugging",
+    "permalink": "/docs/debugging"
+  },
+  "next": {
+    "title": "Roadmap",
+    "permalink": "/docs/roadmap"
+  }
+}

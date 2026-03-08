@@ -1,0 +1,26 @@
+{
+  "id": "flow",
+  "title": "Flow UI",
+  "description": "The Flow UI is an OpenClaw accessibility tool — a visual builder for node‑based flows that can be executed via the OpenClaw gateway.",
+  "source": "@site/docs/flow.md",
+  "sourceDirName": ".",
+  "slug": "/flow",
+  "permalink": "/docs/flow",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Workflows > Packages",
+    "permalink": "/docs/workflows"
+  },
+  "next": {
+    "title": "Recipes",
+    "permalink": "/docs/recipes"
+  }
+}

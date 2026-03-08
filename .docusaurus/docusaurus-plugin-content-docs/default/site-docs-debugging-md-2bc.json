@@ -1,0 +1,26 @@
+{
+  "id": "debugging",
+  "title": "Debugging",
+  "description": "When something fails, you want deterministic evidence.",
+  "source": "@site/docs/debugging.md",
+  "sourceDirName": ".",
+  "slug": "/debugging",
+  "permalink": "/docs/debugging",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Update AgentKit",
+    "permalink": "/docs/update"
+  },
+  "next": {
+    "title": "Troubleshooting",
+    "permalink": "/docs/troubleshooting"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "update",
+  "title": "Update AgentKit",
+  "description": "Standard update",
+  "source": "@site/docs/update.md",
+  "sourceDirName": ".",
+  "slug": "/update",
+  "permalink": "/docs/update",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Deterministic setups for agents (and humans)",
+    "permalink": "/docs/agent-determinism"
+  },
+  "next": {
+    "title": "Debugging",
+    "permalink": "/docs/debugging"
+  }
+}

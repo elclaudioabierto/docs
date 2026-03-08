@@ -1,0 +1,26 @@
+{
+  "id": "overview",
+  "title": "Overview",
+  "description": "AgentKit is a capability package manager for AI coding agents. It turns “guess and check” installs into deterministic, reusable recipes.",
+  "source": "@site/docs/overview.md",
+  "sourceDirName": ".",
+  "slug": "/overview",
+  "permalink": "/docs/overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Quickstart",
+    "permalink": "/docs/quickstart"
+  },
+  "next": {
+    "title": "Installation",
+    "permalink": "/docs/installation"
+  }
+}

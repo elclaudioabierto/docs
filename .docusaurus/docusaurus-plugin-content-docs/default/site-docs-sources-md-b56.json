@@ -1,0 +1,26 @@
+{
+  "id": "sources",
+  "title": "Adding Sources",
+  "description": "AgentKit can read source config from:",
+  "source": "@site/docs/sources.md",
+  "sourceDirName": ".",
+  "slug": "/sources",
+  "permalink": "/docs/sources",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Registry Schema",
+    "permalink": "/docs/registry-schema"
+  },
+  "next": {
+    "title": "Token Savings Simulation",
+    "permalink": "/docs/token-savings"
+  }
+}

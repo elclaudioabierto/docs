@@ -1,0 +1,145 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs/",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "acknowledgements",
+              "path": "/docs/acknowledgements",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "agent-determinism",
+              "path": "/docs/agent-determinism",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "agents-md",
+              "path": "/docs/agents-md",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "cli",
+              "path": "/docs/cli"
+            },
+            {
+              "id": "concepts",
+              "path": "/docs/concepts",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "debugging",
+              "path": "/docs/debugging",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "faq",
+              "path": "/docs/faq"
+            },
+            {
+              "id": "flow",
+              "path": "/docs/flow",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "getting-started",
+              "path": "/docs/getting-started",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/docs/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "installation",
+              "path": "/docs/installation",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "overview",
+              "path": "/docs/overview",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/docs/quickstart",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "recipes",
+              "path": "/docs/recipes",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "registry",
+              "path": "/docs/registry",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "registry-schema",
+              "path": "/docs/registry-schema",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "roadmap",
+              "path": "/docs/roadmap",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "sources",
+              "path": "/docs/sources",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "support",
+              "path": "/docs/support",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "token-savings",
+              "path": "/docs/token-savings",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "troubleshooting",
+              "path": "/docs/troubleshooting",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "update",
+              "path": "/docs/update",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "workflow",
+              "path": "/docs/workflow"
+            },
+            {
+              "id": "workflows",
+              "path": "/docs/workflows",
+              "sidebar": "docsSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docsSidebar": {
+              "link": {
+                "path": "/docs/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

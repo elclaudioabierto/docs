@@ -1,0 +1,26 @@
+{
+  "id": "recipes",
+  "title": "Recipes",
+  "description": "Recipes are declarative YAML.",
+  "source": "@site/docs/recipes.md",
+  "sourceDirName": ".",
+  "slug": "/recipes",
+  "permalink": "/docs/recipes",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Flow UI",
+    "permalink": "/docs/flow"
+  },
+  "next": {
+    "title": "Registry",
+    "permalink": "/docs/registry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "token-savings",
+  "title": "Token Savings Simulation",
+  "description": "When agents guess installs, they burn tokens on:",
+  "source": "@site/docs/token-savings.md",
+  "sourceDirName": ".",
+  "slug": "/token-savings",
+  "permalink": "/docs/token-savings",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Adding Sources",
+    "permalink": "/docs/sources"
+  },
+  "next": {
+    "title": "Example AGENTS.md",
+    "permalink": "/docs/agents-md"
+  }
+}

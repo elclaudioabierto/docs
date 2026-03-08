@@ -1,0 +1,17 @@
+{
+  "id": "workflow",
+  "title": "Workflow",
+  "description": "1) Search a capability",
+  "source": "@site/docs/workflow.md",
+  "sourceDirName": ".",
+  "slug": "/workflow",
+  "permalink": "/docs/workflow",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  }
+}

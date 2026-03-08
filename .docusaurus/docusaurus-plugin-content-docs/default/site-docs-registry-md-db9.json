@@ -1,0 +1,26 @@
+{
+  "id": "registry",
+  "title": "Registry",
+  "description": "This page groups the live registry by category.",
+  "source": "@site/docs/registry.md",
+  "sourceDirName": ".",
+  "slug": "/registry",
+  "permalink": "/docs/registry",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Recipes",
+    "permalink": "/docs/recipes"
+  },
+  "next": {
+    "title": "Registry Schema",
+    "permalink": "/docs/registry-schema"
+  }
+}

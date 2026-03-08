@@ -1,0 +1,26 @@
+{
+  "id": "roadmap",
+  "title": "Roadmap",
+  "description": "Now (live)",
+  "source": "@site/docs/roadmap.md",
+  "sourceDirName": ".",
+  "slug": "/roadmap",
+  "permalink": "/docs/roadmap",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Troubleshooting",
+    "permalink": "/docs/troubleshooting"
+  },
+  "next": {
+    "title": "Support",
+    "permalink": "/docs/support"
+  }
+}

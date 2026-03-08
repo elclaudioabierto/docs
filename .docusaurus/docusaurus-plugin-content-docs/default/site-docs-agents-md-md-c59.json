@@ -1,0 +1,26 @@
+{
+  "id": "agents-md",
+  "title": "Example AGENTS.md",
+  "description": "Below is a sample AGENTS.md that orients an AI coding agent to the AgentKit ecosystem (with a little sarcastic soul).",
+  "source": "@site/docs/agents-md.md",
+  "sourceDirName": ".",
+  "slug": "/agents-md",
+  "permalink": "/docs/agents-md",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Token Savings Simulation",
+    "permalink": "/docs/token-savings"
+  },
+  "next": {
+    "title": "Deterministic setups for agents (and humans)",
+    "permalink": "/docs/agent-determinism"
+  }
+}

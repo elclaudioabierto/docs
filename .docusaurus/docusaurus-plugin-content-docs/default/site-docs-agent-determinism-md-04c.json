@@ -1,0 +1,26 @@
+{
+  "id": "agent-determinism",
+  "title": "Deterministic setups for agents (and humans)",
+  "description": "AgentKit helps agents and humans converge on the same deterministic setup — which saves tokens and time.",
+  "source": "@site/docs/agent-determinism.md",
+  "sourceDirName": ".",
+  "slug": "/agent-determinism",
+  "permalink": "/docs/agent-determinism",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Example AGENTS.md",
+    "permalink": "/docs/agents-md"
+  },
+  "next": {
+    "title": "Update AgentKit",
+    "permalink": "/docs/update"
+  }
+}

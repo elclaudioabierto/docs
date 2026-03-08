@@ -1,0 +1,17 @@
+{
+  "id": "cli",
+  "title": "CLI Reference",
+  "description": "Search",
+  "source": "@site/docs/cli.md",
+  "sourceDirName": ".",
+  "slug": "/cli",
+  "permalink": "/docs/cli",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  }
+}

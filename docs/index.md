@@ -9,8 +9,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <div className="homepage-layout">
 
 <div className="hero-block">
-  <div className="hero-title">Capability provisioning for AI coding agents.</div>
-  <p className="hero-sub">AgentKit turns messy setup into deterministic recipes. Agents install capabilities (not just packages) without guessing commands.</p>
+  <div className="hero-title">A package manager for agent capabilities.</div>
+  <p className="hero-sub">AgentKit turns messy setup into deterministic recipes so agents can install tools, models, and workflows without guessing commands.</p>
   <div className="hero-cta">
     <code>npm i -g @claudioabierto/agentkit</code>
   </div>
@@ -26,10 +26,14 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </div>
 </div>
 
+<div className="analogy-banner">
+  AgentKit is <strong>Homebrew for agent capabilities</strong> — but each “package” is a full workflow (install, configure, validate).
+</div>
+
 <section className="section-band">
 
 ## What is AgentKit?
-AgentKit is a **capability provisioning layer** for AI coding agents. It sits between package managers (brew/npm/pip) and agent runtimes. Agents can **search**, **inspect**, and **add** capabilities using a GitHub‑hosted registry of recipes.
+AgentKit is a **capability package manager** for AI coding agents. It sits between package managers (brew/npm/pip) and agent runtimes. Agents can **search**, **inspect**, and **add** capabilities—deterministic, multi‑step recipes hosted in a GitHub‑native registry.
 
 <div className="video-frame">
   <video src={useBaseUrl('/demo.mp4')} controls playsInline />
@@ -48,7 +52,7 @@ AgentKit is a **capability provisioning layer** for AI coding agents. It sits be
   </div>
   <div className="card feature-card">
     <h3>Deterministic installs</h3>
-    <p>Recipes make setup repeatable and auditable.</p>
+    <p>Recipes make setup repeatable, reviewable, and auditable.</p>
   </div>
   <div className="card feature-card">
     <h3>Token savings</h3>
