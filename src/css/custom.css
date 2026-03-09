@@ -11,6 +11,25 @@
   --ifm-heading-font-family: "Space Mono", "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --ifm-navbar-background-color: #ffffff;
   --ifm-footer-background-color: #ffffff;
+  --ifm-font-color-base: #111111;
+  --ifm-color-content: #111111;
+  --ifm-heading-color: #111111;
+  --ifm-hero-text-color: #111111;
+  --ifm-link-color: #111111;
+  --ifm-link-hover-color: #000000;
+}
+
+/* Ensure light mode text stays readable on yellow background */
+.markdown,
+.markdown p,
+.markdown li,
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  color: #111111;
 }
 
 html, body {
@@ -525,8 +544,10 @@ html[data-theme='dark'] .homepage-hero .button {
   display: flex;
   gap: 1rem;
   overflow-x: auto;
-  padding-bottom: 0.5rem;
+  padding: 0.25rem 0.75rem 0.75rem;
   max-width: 100%;
+  scroll-padding-left: 0.75rem;
+  scroll-padding-right: 0.75rem;
 }
 
 .scroll-row::-webkit-scrollbar {
@@ -536,6 +557,23 @@ html[data-theme='dark'] .homepage-hero .button {
 .scroll-row::-webkit-scrollbar-thumb {
   background: #fefb00;
   border: 2px solid #000;
+}
+
+.registry-card {
+  min-width: 260px;
+  max-width: 320px;
+  width: min(85vw, 320px);
+}
+
+@media (max-width: 640px) {
+  .scroll-row {
+    gap: 0.75rem;
+    padding: 0.25rem 0.5rem 0.75rem;
+  }
+  .registry-card {
+    min-width: 220px;
+    width: min(88vw, 300px);
+  }
 }
 
 .tag {
