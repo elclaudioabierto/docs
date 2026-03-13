@@ -1,6 +1,78 @@
 {
   "recipes": [
     {
+      "id": "agent-graph-demo",
+      "name": "Agent Graph Demo (Next.js + React Flow)",
+      "description": "Next.js app with React Flow and LangGraph/LangChain deps for an agent graph demo.",
+      "tags": [
+        "nextjs",
+        "reactflow",
+        "langgraph",
+        "langchain"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "frontend-app",
+        "ai",
+        "visualization"
+      ]
+    },
+    {
+      "id": "react-flow",
+      "name": "React Flow",
+      "description": "Scaffold a minimal React + TypeScript app with React Flow.",
+      "tags": [
+        "react",
+        "reactflow"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "frontend-app",
+        "visualization"
+      ]
+    },
+    {
+      "id": "langchain",
+      "name": "LangChain (JS)",
+      "description": "Scaffold a minimal Node project with LangChain.",
+      "tags": [
+        "langchain"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "ai"
+      ]
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph JS",
+      "description": "Scaffold a minimal Node project with LangGraph.js.",
+      "tags": [
+        "langgraph"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "ai"
+      ]
+    },
+    {
+      "id": "nextjs-postgres-auth",
+      "name": "Next.js + Postgres + Auth.js",
+      "description": "Full Next.js app with Tailwind, Prisma (Postgres), and Auth.js.",
+      "tags": [
+        "nextjs",
+        "postgres",
+        "prisma",
+        "auth"
+      ],
+      "kind": "capability",
+      "capabilities": [
+        "frontend-app",
+        "backend",
+        "auth"
+      ]
+    },
+    {
       "id": "backend-api",
       "name": "Backend API Stack",
       "description": "FastAPI + Uvicorn + HTTPie in a local uv venv.",
